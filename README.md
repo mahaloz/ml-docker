@@ -16,5 +16,6 @@ The libraries included:
 - PyTorch 0.3.1
 - OpenCV 3.4.1
 - Jupyter Notebook
+- iPython
 - Numpy, Scipy, Scikit Learn, Scikit Image, Pandas, Matplotlib, Pillow
 
