@@ -22,9 +22,9 @@ The libraries included:
 - Networkx
 
 ## Requirements
-The usage of this dockerfile clearly requires you to have docker installed:
-[Docker](https://docs.docker.com/v17.12/install/)--this can be installed on `Mac OSX` `Windows` 
-or any flavor of `linux`. This container download also requires `3.47 GB` of disk storage.
+The usage of this dockerfile clearly requires you to have Docker installed:
+[Docker](https://docs.docker.com/v17.12/install/)--this can be installed on `Mac OSX`, `Windows` 
+or any flavor of `Linux`. This container download also requires `3.47 GB` of disk storage.
 
 ## Usage
 Run in your command line of choice to pull the pre-compiled project:
