@@ -79,11 +79,11 @@ RUN pip3 install http://download.pytorch.org/whl/cpu/torch-0.3.1-cp35-cp35m-linu
 #
 # Networkx
 #
-pip3 install networkx
+RUN pip3 install networkx
 
 #
 # IBM CPLEX
 #
-pip install cplex
+RUN pip install cplex
 
 USER ml-expert
