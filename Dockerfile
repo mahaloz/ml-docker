@@ -76,4 +76,14 @@ RUN pip3 install --no-cache-dir --upgrade h5py pydot_ng keras
 RUN pip3 install http://download.pytorch.org/whl/cpu/torch-0.3.1-cp35-cp35m-linux_x86_64.whl && \
     pip3 install torchvision
 
+#
+# Networkx
+#
+pip3 install networkx
+
+#
+# IBM CPLEX
+#
+pip install cplex
+
 USER ml-expert

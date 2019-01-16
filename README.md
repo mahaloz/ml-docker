@@ -18,4 +18,8 @@ The libraries included:
 - Jupyter Notebook
 - iPython
 - Numpy, Scipy, Scikit Learn, Scikit Image, Pandas, Matplotlib, Pillow
+- IBM CPLEX
+- Networkx
+
+## Usage
 
