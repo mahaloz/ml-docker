@@ -17,7 +17,4 @@ The libraries included:
 - OpenCV 3.4.1
 - Jupyter Notebook
 - Numpy, Scipy, Scikit Learn, Scikit Image, Pandas, Matplotlib, Pillow
-- Caffe
-- Java JDK
-- PyCocoTools (MS COCO dev kit)
 
