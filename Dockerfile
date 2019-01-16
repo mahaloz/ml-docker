@@ -6,6 +6,11 @@ MAINTAINER zbasque@asu.edu
 # waleedka/modern-deep-learning-docker project. Please
 # go check him out. 
 
+# Add fun name for user and give him root
+USER root
+RUN echo "ml-docker ALL=NOPASSWD: ALL" > /etc/sudoers.d/ml-docker
+USER ml-docker
+
 # Supress warnings about missing front-end. As recommended at:
 # http://stackoverflow.com/questions/22466255/is-it-possibe-to-answer-dialog-questions-when-installing-under-docker
 ARG DEBIAN_FRONTEND=noninteractive
@@ -86,4 +91,5 @@ RUN pip3 install networkx
 #
 RUN pip install cplex
 
-USER ml-expert
+WORKDIR /home/ml-docker 
+ENTRYPOINT [ "bash", "-i" ]
