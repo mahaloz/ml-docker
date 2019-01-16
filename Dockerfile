@@ -8,6 +8,7 @@ MAINTAINER zbasque@asu.edu
 
 # Add fun name for user and give him root
 USER root
+RUN apt-get install -y sudo
 RUN echo "ml-docker ALL=NOPASSWD: ALL" > /etc/sudoers.d/ml-docker
 USER ml-docker
 
