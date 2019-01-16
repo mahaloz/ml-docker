@@ -22,4 +22,9 @@ The libraries included:
 - Networkx
 
 ## Usage
-
+The usage of this dockerfile clearly requires you to have docker installed:
+[Docker](https://docs.docker.com/v17.12/install/). Once this is done simply run
+the command below and wait as 3gb of ml libraries download pre-compiled.
+```bash
+docker pull mahaloz/ml-docker
+```
