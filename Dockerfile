@@ -11,7 +11,6 @@ USER root
 run useradd -s /bin/bash -m ml-docker
 RUN apt-get update && apt-get install -y sudo 
 RUN echo "ml-docker ALL=NOPASSWD: ALL" > /etc/sudoers.d/ml-docker
-USER ml-docker
 
 # Supress warnings about missing front-end. As recommended at:
 # http://stackoverflow.com/questions/22466255/is-it-possibe-to-answer-dialog-questions-when-installing-under-docker
@@ -93,5 +92,6 @@ RUN pip3 install networkx
 #
 RUN pip install cplex
 
+USER ml-docker
 WORKDIR /home/ml-docker 
 ENTRYPOINT [ "bash", "-i" ]
