@@ -56,3 +56,5 @@ docker run --rm -it \
    --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" \
    mahaloz/ml-docker
 ```
+## TODO
+Need an updated GPU version, consider brining over the No'a project.
