@@ -92,6 +92,16 @@ RUN pip3 install networkx
 #
 RUN pip install cplex
 
+#
+# Pydotplus
+# 
+RUN pip3 install pydotplus
+
+#
+# mlxtend
+#
+RUN pip3 install mlxtend
+
 USER ml-docker
 WORKDIR /home/ml-docker 
 ENTRYPOINT [ "bash", "-i" ]
